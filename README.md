@@ -4,5 +4,5 @@ override CRA.
 
 ## Custom
 
-[✅] babel.config.js
-[✅] .eslintrc.js
+- [✅] babel.config.js
+- [✅] .eslintrc.js
