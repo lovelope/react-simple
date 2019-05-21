@@ -6,3 +6,4 @@ override CRA.
 
 - [✅] babel.config.js
 - [✅] .eslintrc.js
+- [✅] lib externals

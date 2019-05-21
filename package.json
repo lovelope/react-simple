@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "rreact-app-rewired build",
+    "build": "react-app-rewired build",
     "eject": "react-scripts eject",
     "prettier": "prettier --write '**/*.{js,jsx,css,less,json}'",
     "start": "react-app-rewired start",
@@ -61,7 +61,7 @@
     "@typescript-eslint/parser": "^1.9.0",
     "babel-plugin-import": "^1.11.2",
     "babel-plugin-lodash": "^3.3.4",
-    "customize-cra": "^0.2.12",
+    "customize-cra": "git+ssh://git@github.com/arackaf/customize-cra.git",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-import": "^2.17.2",

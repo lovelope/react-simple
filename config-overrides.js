@@ -1,3 +1,18 @@
-const { override, useEslintRc, useBabelRc } = require('customize-cra');
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable import/no-extraneous-dependencies */
 
-module.exports = override(useBabelRc(), useEslintRc());
+const {
+  addWebpackExternals,
+  override,
+  useBabelRc,
+  useEslintRc,
+} = require('customize-cra');
+
+module.exports = override(
+  addWebpackExternals({
+    react: 'React',
+    'react-dom': 'ReactDOM',
+  }),
+  useBabelRc(),
+  useEslintRc()
+);
