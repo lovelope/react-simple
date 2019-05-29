@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+// @ts-ignore ts2691
+import App from './App.tsx';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// @ts-ignore ts2691
+import App from './App.tsx';
+// @ts-ignore ts2691
+import * as serviceWorker from './serviceWorker.ts';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
