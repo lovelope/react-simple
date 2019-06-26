@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-console.info('aaa');
-
 const App: React.FC = (): React.ReactElement => {
   const [value, setValue] = useState('');
 
