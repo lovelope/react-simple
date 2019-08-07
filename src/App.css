@@ -8,7 +8,9 @@
 
 .App-logo {
   height: 40vmin;
+
   animation: App-logo-spin infinite 20s linear;
+
   pointer-events: none;
 }
 
@@ -18,8 +20,10 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
   color: white;
   font-size: calc(10px + 2vmin);
+
   background-color: var(--app-header-bg-color);
 }
 
@@ -31,6 +35,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
